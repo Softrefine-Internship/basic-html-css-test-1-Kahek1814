@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-.container{}
+.container{
+        max-width: 2200px;
+    margin: 0 auto;
+}
 
 .header{
     height: 10vh;
