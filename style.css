@@ -1,176 +1,143 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.container{
-    max-width: 2200px;
-    margin: 0 auto;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.header{
-    height: 10vh;
-    margin-bottom:10px;
+.container {
+  max-width: 2200px;
+  margin: 0 auto;
 }
-.Header-div{
-    background-color: grey;
-    width: 100%;
-    height: 100%;
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
-.middle-top{
-    height: 10vh;
-    margin-bottom: 10px;
+
+.site-header {
+  height: 10vh;
+  margin-bottom: 10px;
+  background: grey;
 }
-.middle-tittle{
-    margin: 0 auto;
+
+.hero-title {
+  height: 10vh;
     width: 40%;
-    height: 100%;
-    background-color: grey;
-}
-.middle-two-container{
-    margin-bottom: 10px;
-    height: 60vh;
-}
-.middlw-two-container-1{
-    float: left;
-    width: 49%;
-    background-color: grey;
-    height: 100%;
-}
-.middlw-two-container-2{
-    float: right;
-    width: 49%;
-    background-color: grey;
-    height: 100%;
-}
-.middle-two-container::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-.brefore-scroll-header{
-    margin-bottom: 10px;
-    height: 10vh;
-}
-.bottome-1st-page-header{
-    margin: 0 auto;
-    width: 60%;
-    background-color: grey;
-    height: 100%;
-}
-.center-grid-8-8{
-    margin-bottom: 10px;
-    text-align: center;
-}
-.grid-box{
-    margin: 20px;
-    background-color: grey;
-    height: 350px;
-    width:350px;
-    display: inline-block;
-    vertical-align: top;
-}
-.row-1, .row-2{
-    text-align: center;
-}
-.header-under-div{
-    height: 10vh;
-    margin-bottom: 10px;
-}
-.div-header-under-div{
-    background-color: grey;
-    margin: 0 auto;
-    width: 57%;
-    height: 100%;
-}
-.content-container{
-    margin: 0 auto 10px auto;
-    background-color: grey;
-    height: 90vh;
-    text-align: center;
-}
-.main-1{
-    display: inline-block;
-    background-color: white;
-    height: 90%;
-    width: 25%;
-    margin: 40px;
-    vertical-align: top;
-    text-align: center;
-}
-.main-1-1{
-    background-color: grey;
-    height: 10%;
-    width: 90%;
-    margin: 10px auto;
-    margin-top: 3%;
-}
-.main-1-2{
-    background-color: grey;
-    width: 90%;
-    height: 40%;
-    margin: 20px auto 0 auto;
+  background: grey;
+  margin: 0 auto;
+   margin-bottom: 10px;
 }
 
-.header-under-containt{
-    margin-top: 30px;
-    margin-bottom: 300px;
-    height: 60vh;
+.two-column {
+  margin-bottom: 10px;
+  height: 60vh;
 }
-.header-u-c{
-    height: 15%;
-    width: 30%;
-    margin: 0 auto;
-   background-color: grey; 
+.column-left, .column-right {
+  width: 49%;
+  height: 100%;
+  background: grey;
 }
-.content-u-c{
-    background-color: 1px solid red;
-    height: 70%;
-}
-.div-1{
-    margin-top: 10px;
-    height: 15%;
-    width: 50%;
-    margin: 0 auto;
-    margin-top:20px;
-    background-color: grey;
-}
-.extra-large-div-1{
-    height: 50%;
-    background-color: grey;
-    width: 50%;
-    margin: 10px auto;
-}
-.split-div-1{
-    margin: 0 auto;
-    height: 15%;
-    width: 50%;
-}
-.div-1-s-2-1{
-    float: left;
-    width: 48%;
-    height:100%;
-    background-color: grey;
-}
-.div-1-s-2-2{
-    float: right;
-    width: 48%;
-    height:100%;
-    background-color: grey;
-}
-.footer{
-    
-    margin: 0 auto 10px auto;
-    background-color: grey;
-    height: 40vh;
-    text-align: center;
+.column-left { float: left; }
+.column-right { float: right; }
 
+.sub-header {
+  height: 10vh;
+  margin-bottom: 10px;
+  width: 60%;
+  background: grey;
+  margin: 0 auto;
 }
-.divfooter{
-    display: inline-block;
-    background-color: white;
-    height: 80%;
-    width: 46%;
-    margin: 40px;
-    vertical-align: top;
-    text-align: center;
+
+.grid-container {
+  width: 80%;
+  margin: 0 auto 10px auto;
+}
+.grid-row {
+  margin-bottom: 20px;
+}
+.grid-box {
+  float: left;
+  width: 23%;
+  margin: 1%;
+  height: 200px;
+  background: grey;
+}
+.section-header {
+  height: 10vh;
+  margin: 20px auto;
+  width: 57%;
+  background: grey;
+}
+
+.card-container {
+  margin: 0 auto 20px auto;
+  background: grey;
+  padding: 20px;
+}
+.card {
+  float: left;
+  background: white;
+  height: 500px;
+  width: 30%;
+  margin: 1.5%;
+  text-align: center;
+}
+.card-title {
+  background: grey;
+  height: 50px;
+  width: 90%;
+  margin: 20px auto;
+}
+.card-body {
+  background: grey;
+  width: 90%;
+  height: 180px;
+  margin: 20px auto;
+}
+
+.mixed-content {
+  margin: 30px auto 50px auto;
+}
+.section-subtitle {
+  height: 60px;
+  width: 30%;
+  margin: 0 auto 20px auto;
+  background: grey;
+}
+.bar {
+  height: 40px;
+  width: 50%;
+  margin: 20px auto;
+  background: grey;
+}
+.large-box {
+  height: 200px;
+  width: 50%;
+  margin: 20px auto;
+  background: grey;
+}
+.split-box {
+  width: 50%;
+  margin: 0 auto;
+  height: 80px;
+}
+.split-left, .split-right {
+  width: 48%;
+  height: 100%;
+  background: grey;
+}
+.split-left { float: left; }
+.split-right { float: right; }
+.site-footer {
+  background: grey;
+  height: 40vh;
+  margin: 20px auto;
+  padding: 20px;
+}
+.footer-box {
+  float: left;
+  background: white;
+  height: 80%;
+  width: 46%;
+  margin: 2%;
 }
